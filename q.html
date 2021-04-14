@@ -47,7 +47,12 @@ cursor:pointer;
 <title>QR Code</title>
 	
 </head>
-	<body>
+
+
+<body onload="setTimeout(myFunction, 3000);">
+    <div id="theDiv" style="display:none;     width: 100%; background: aquamarine; padding: 10px;">
+       <b> QR Code Expired!</b> To Reload the QR Code, Please visit the <b>Status Saver App</b> where you left.
+    </div>
 		
 <h3> </h3>
         
@@ -64,7 +69,14 @@ cursor:pointer;
         
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
-		
+
+
+<script>
+function myFunction() {
+ var myDiv = document.getElementById('theDiv');
+        myDiv.style.display = myDiv.style.display === 'none' ? 'block' : 'none';
+}
+</script>
 <script>
 			
 /* JS comes here */
