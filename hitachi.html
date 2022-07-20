@@ -1,0 +1,482 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+      <link rel = "stylesheet" 
+         href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <style>
+         body {
+            color:black;
+         }
+      </style>
+<style>
+         table {
+            border: 1px solid;
+	   
+         }
+	 th {
+		border: 2px solid;
+		padding: 15px;
+		}
+
+	 tr {
+		border: 2px solid;
+		}
+		
+	  td {
+		border: 1px solid;
+		padding: 15px;
+		}
+      </style>
+   </head>
+   <body>
+   
+       
+      
+          
+         
+<div class = "col-md-8">
+            
+<p>
+<table id="tablepress-43-no-2" class="tablepress tablepress-id-43">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Code</th><th class="column-2">Protection control</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">P01</td><td class="column-2">Pressure ratio protection control</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">P02</td><td class="column-2">High pressure increase protection</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">P03</td><td class="column-2">Inverter current protection</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">P04</td><td class="column-2">Inverter fin temperature increase protection</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">P05</td><td class="column-2">Discharge gas temperature increase protection at the upper part of the compressor</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">P06</td><td class="column-2">Low pressure decrease protection</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">P09</td><td class="column-2">High pressure decrease protection</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">P0A</td><td class="column-2">Demand current protection control</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">P0d</td><td class="column-2">Low pressure increase protection</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">P11</td><td class="column-2">Pressure ratio decrease retry</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">P12</td><td class="column-2">Low pressure increase retry</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">P13</td><td class="column-2">High pressure increase retry</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">P14</td><td class="column-2">Constant speed compressor overcurrent retry</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">P15</td><td class="column-2">Discharge gas temperature increase retry / Low pressure decrease retry</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">P16</td><td class="column-2">Discharge gas super-heat decrease retry</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">P17</td><td class="column-2">Inverter anomaly retry</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">P18</td><td class="column-2">Abnormal Inverter voltage retry / Inverter failure retry</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">P26</td><td class="column-2">High pressure decrease retry</td>
+</tr>
+</tbody>
+</table>
+
+<table id="tablepress-262-no-2" class="tablepress tablepress-id-262">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Alarm Codes</th><th class="column-2">Content of Abnormality-Leading Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">01</td><td class="column-2">Tripping of Protection Device-Failure of Fan Motor, Drain Discharge, PCB, Relay.</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">02</td><td class="column-2">Tripping of Protection Device-Activation of PSH.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">03</td><td class="column-2">Abnormality between Indoor (or outdoor) and Outdoor (or Indoor)-Incorrect Wiring. Failure of PCB. Tripping of Fuse. Power Supply OFF.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">04</td><td class="column-2">Abnormality between Inverter and Control PCB-Failure in Transmission between PCBs.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">05</td><td class="column-2">Abnormality of Power Source Wiring-Reverse Phase Incorrect Wiring.</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">06</td><td class="column-2">Voltage Drop by Excessively Low or High Voltage to Outdoor Unit-Voltage Drop of Power Supply, Incorrect Wiring or Insufficient Capacity of Power Supply Wiring.</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">07</td><td class="column-2">Decrease in Discharge Gas Superheat-Excessive Refrigerant Charge, Expansion Valve Open Lock.</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">08</td><td class="column-2">Increase in Discharge Gas Temperature-Insufficient Refrigerant. Ref. Leakage, Clogging or Expansion Valve Close Lock.</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">09</td><td class="column-2">Tripping of Protection Device-Failure of Fan Motor.</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">11</td><td class="column-2">Inlet Air Thermistor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">12</td><td class="column-2">Outlet Air Thermistor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">13</td><td class="column-2">Freeze Protection Thermistor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">14</td><td class="column-2">Gas Piping Thermistor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">19</td><td class="column-2">Failure of Fan Motor-Failure of Fan Motor.</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">21</td><td class="column-2">High Pressure Sensor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">22</td><td class="column-2">Outdoor Air Thermistor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">23</td><td class="column-2">Discharge Gas Thermistor on Comp-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">24</td><td class="column-2">Evaporating Thermistor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">29</td><td class="column-2">Low Pressure Sensor-Failure of Thermistor, Sensor, Connection.</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">30</td><td class="column-2">Incorrect Wiring Connection-Incorrect Wiring Connection between Outdoor Unit, CH Unit and Indoor Unit.</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">31</td><td class="column-2">Incorrect Setting of Outdoor and Indoor Unit-Incorrect Setting of Capacity Code.</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">32</td><td class="column-2">Abnormal Transmission of Other Indoor Unit-Failure of Power Supply, PCB in Other Indoor Unit. Failure of Other Indoor Unit of the Same Refrigerant Cycle.</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">35</td><td class="column-2">Incorrect Setting in Indoor/Outdoor Unit No-Existence of the same Indoor Unit No. in the same refrigerant cycle.</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">38</td><td class="column-2">Abnormality of Protective Circuit in Outdoor Unit-Failure of Indoor Unit PCB. Incorrect Wiring Connection to PCB in Outdoor Unit.</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">39</td><td class="column-2">Abnormality of Running Current at Constant Compressor-Overcurrent, Melted Fuse of Failure of Current Sensor.</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">43</td><td class="column-2">Pressure Ratio Decrease Protection Activating-Failure of Compressor, Inverter.</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">44</td><td class="column-2">Low Pressure Increase Protection Activating-Overload to Indoor in Cooling, High Temperature of Outdoor Air in Heating Expansion Valve Open Lock.</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">45</td><td class="column-2">High Pressure Increase Protection Activating-Overload Operation. Excessive Refrigerant Clogging of Heat Exchanger.</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">46</td><td class="column-2">High Pressure Decrease Protection Activating-Insufficient Refrigerant.</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">47</td><td class="column-2">Low Pressure Decrease Protection Activating-Insufficient Refrigerant. Expansion Valve Close Lock. Refrigerant Leakage.</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">51</td><td class="column-2">Abnormality of Current Sensor for Inverter-Failure of Sensor on Inverter PCB.</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">52</td><td class="column-2">Overcurrent Protection Activating-Overload, Overcurrent, Locked to Compressor.</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">53</td><td class="column-2">IPM Protection Activating-Automatic Stoppage of IPM.</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">54</td><td class="column-2">Increase in Inverter Fin Temperature-Abnormal Inverter Fin Thermistor, Abnormal Outdoor Fan.</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">56</td><td class="column-2">Abnormality of Detection for Fan Motor Position-Abnormal Detection Circuit of Transmission.</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">57</td><td class="column-2">Fan Controller Protection Activating-Abnormal Fan Speed.</td>
+</tr>
+<tr class="row-38 even">
+	<td class="column-1">58</td><td class="column-2">Abnormality of Fan Controller-Overcurrent, Abnormal Fan Controller Fin.</td>
+</tr>
+<tr class="row-39 odd">
+	<td class="column-1">59</td><td class="column-2">AC Chopper Circuit Protection-Failure of FET, Power Supply, CT for Fan Motor.</td>
+</tr>
+<tr class="row-40 even">
+	<td class="column-1">EE</td><td class="column-2">Compressor Protection-3 Time Occurrence of Alarm Giving Damage to Compressor within 6 hours.</td>
+</tr>
+<tr class="row-41 odd">
+	<td class="column-1">dd</td><td class="column-2">Incorrect Wiring between Indoor Units-Incorrect Wiring between Indoor Units and Remote Control Switch.</td>
+</tr>
+</tbody>
+</table>
+
+<table id="tablepress-263-no-2" class="tablepress tablepress-id-263">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Codes</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">01</td><td class="column-2">Safety Device of the Indoor Unit is tripped (internal Thermostat, *Float Switch)</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">02</td><td class="column-2">1. Safety Device of the Outdoor Unit is tripped (High pressure switch, Internal Thermostat for Outdoor Fan Motor and Overcurrent Relay) 2. Safety Device of the Outdoor Unit is tripped (Overcurrent Relay, Compressor Chamber Thermostat, High Pressure Switch and Internal Thermostat for Outdoor and Indoor Fan Motor)</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">03</td><td class="column-2">Transmission Abnormality between Indoor Unit and Outdoor Unit</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">05</td><td class="column-2">Picking up phase Abnormality</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">08</td><td class="column-2">Abnormality High Temperature on the Top of Compressor</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">11</td><td class="column-2">Thermistor Abnormality for inlet Air Temperature</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">12</td><td class="column-2">Thermistor Abnormality for outlet Air Temperature</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">13</td><td class="column-2">Thermistor Abnormality for Freezing Temperature</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">20</td><td class="column-2">Thermistor Abnormality for Compressor Top Temperature</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">22</td><td class="column-2">Thermistor Abnormality for Outdoor Air Temperature</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">24</td><td class="column-2">Thermistor Abnormality for Outdoor Evaporating Temperature (defrosting)</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">25</td><td class="column-2">Thermistor Abnormality for Condensing Temperature</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">32</td><td class="column-2">Transmision Abnormality between Master and Slave</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">38</td><td class="column-2">Abnormality in the Picking up Circuit protection </td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">41</td><td class="column-2">Excessive Overload during Cooling Operation</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">42</td><td class="column-2">Excessive Overload during Heating Operation</td>
+</tr>
+</tbody>
+</table>
+
+<table id="tablepress-264-no-2" class="tablepress tablepress-id-264">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error code</th><th class="column-2">Malfunction </th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E0 </td><td class="column-2">Water pump malfunction </td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E1</td><td class="column-2">High pressure protection of compressor </td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E2</td><td class="column-2">Indoor anti-frozen protection </td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E3</td><td class="column-2">Low pressure protection of compressor</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E4 </td><td class="column-2">Air discharge high-temperature protection of compressor</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E5 </td><td class="column-2">Overload protection of compressor or Inverter error</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E6 </td><td class="column-2">Communication malfunction</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E8 </td><td class="column-2">Indoor fan protection </td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E9 </td><td class="column-2">Water flow protection</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">F0 </td><td class="column-2">Malfunction of indoor environment sensor at air return vent</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">F1 </td><td class="column-2">Evaporator sensor malfunction</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">F2</td><td class="column-2">Condenser sensor malfunction</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">F3 </td><td class="column-2">Outdoor environment sensor malfunction</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">F4</td><td class="column-2">Malfunction of air discharge sensor </td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">F5</td><td class="column-2">Malfunction of environment sensor on displayer</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">EH</td><td class="column-2">Auxiliary electric heater malfunction</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">H1</td><td class="column-2">Indoor unit fault</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">H2</td><td class="column-2">Indoor ambient temperature</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">H3</td><td class="column-2">Indoor coil temperature</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">H4</td><td class="column-2">Indoor setting temperature</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">FE</td><td class="column-2">Communication between main control board and wiring remote controller fault.</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">ER</td><td class="column-2">Communication between main control board and display board fault.</td>
+</tr>
+</tbody>
+</table>
+
+<table id="tablepress-265-no-2" class="tablepress tablepress-id-265">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Timer Light</th><th class="column-2">Cause and Repair</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">1 Flash</td><td class="column-2">Insufficient heating or cooling. Likely low on refrigerant.</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">2 Flashes</td><td class="column-2">Outdoor unit is in forced operation. Not a fault.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">3 Flashes</td><td class="column-2">Indoor/Ourdoor communication error. Check interconnecting cable.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">4 Flashes</td><td class="column-2">Outdoor unit error. Check outdoor unit.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">5 Flashes(Mono/Multizone)</td><td class="column-2">Indoor fan motor rotation error. Check indoor fan motor.</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">5 Flashes(Summit Premium)</td><td class="column-2">Power relay error. Check power relay.</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">6 Flashes</td><td class="column-2">Drain high water level alarm. Check drains and pump.</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">7 Flashes</td><td class="column-2">Drain pump in force operation. Not a fault.</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">8 Flashes</td><td class="column-2">Louver defective. Check louvers and wiring.</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">9 Flashes</td><td class="column-2">Indoor thermistor fault. Check air and pipe thermistor.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">10 Flashes</td><td class="column-2">Fan rotation error. Check indoor fan motor.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">11 Flashes</td><td class="column-2">High voltage genorator/Ionize fault. Check high voltage gen/Ionizer.</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">12 Flashes</td><td class="column-2">Indoor/Outdoor communication error. Check interconnecting cable.</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">13 Flashes</td><td class="column-2">EEPROM error on PCB. Check PCB.</td>
+</tr>
+</tbody>
+</table>
+
+<table id="tablepress-266-no-2" class="tablepress tablepress-id-266">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Trouble</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">During heating, the operation indicator blinks and air blow stops</td><td class="column-2"><operation start=""> The unit is preparing to blow warm air. Please wait. <in operation=""> The outdoor unit is defrosting. Please wait.</in></operation></td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">Hissing or fizzy sounds</td><td class="column-2">Refrigerant flow noise in the pipe or valve sound generated when flow rate is adjusted.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">Squeaking noise </td><td class="column-2">Noise generated when the unit expands or contracts due to temperature changes.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">Rustling noise </td><td class="column-2">Noise generated with the indoor unit fan’s rpm changing such as operation start times.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">Clicking noise </td><td class="column-2">Noise of the motorized valve when the unit is switched on.</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">Perking noise</td><td class="column-2">Noise of the ventilation fan sucking in air present in the drain hose and blowing out dehumidifying water that had accumulated in the condensed water collector. For details, consult your sales agent.</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">Changing operation noise</td><td class="column-2">Operation noise changes due to power variations according to room temperature changes.</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">Mist emission </td><td class="column-2">Mist is generated as the air within the room is suddenly cooled by conditioned air.</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">Steam emitted from the outdoor unit </td><td class="column-2">Water generated during defrosting operation evaporates and steam is emitted.</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">Odors</td><td class="column-2">Caused as the smells and particles of smoke, food, cosmetics, etc. present in room air become attached the unit and blown off into the room again.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">The outdoor unit continues to operate even if operation is stopped.</td><td class="column-2">Defrosting is underway (as the heating operation is stopped, the microcomputer checks frost accumulated in the indoor unit and instructs the unit to perform automatic defrosting if necessary).</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">The OPERATION lamp is blinking.</td><td class="column-2">Shows preheating or defrosting operation is underway. As the protective circuit or preheat sensor operates when unit operation is stopped during preheating and then restarted, or when operation mode is switched from cooling to heating, the lamp continues to blink.</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">Does not reach the temperature setting.</td><td class="column-2">Actual room temperature may deviate slightly from the remote controller’s temperature setting depending on the number of people in the room, indoor or outdoor conditions.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+ 
+ 
+            </p>
+         </div>
+      
+          
+      
+   </body>
+</html>
