@@ -1,0 +1,647 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+      <link rel = "stylesheet" 
+         href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <style>
+         body {
+            color:black;
+         }
+      </style>
+<style>
+         table {
+            border: 1px solid;
+	   
+         }
+	 th {
+		border: 2px solid;
+		padding: 15px;
+		}
+
+	 tr {
+		border: 2px solid;
+		}
+		
+	  td {
+		border: 1px solid;
+		padding: 15px;
+		}
+      </style>
+   </head>
+   <body>
+   
+       
+      
+          
+         
+<div class = "col-md-8">
+  
+<p><strong>Indoor Unit Side</strong></p>
+          
+<p>
+<table id="tablepress-227-no-2" class="tablepress tablepress-id-227">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E1</td><td class="column-2">When multiple remote controllers are used for control, the power supply to some indoor units is OFF.</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1"></td><td class="column-2">Indoor unit PCB fault</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1"></td><td class="column-2">The remote controller wire Y is open. The remote controller wires X and Y are reversely connected. Noise is penetrating the remote control lines. The remote controller or indoor control PCB is faulty.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E5</td><td class="column-2">Indoor / outdoor transmission error.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1"></td><td class="column-2">Outdoor unit control PCB is faulty when the power is turned on, or the inverter parts are faulty.</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1"></td><td class="column-2">Outdoor unit microcomputer failure.</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E6</td><td class="column-2">Indoor unit heat exchanger thermistor failure</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E7</td><td class="column-2">Indoor unit return air thermistor failure</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E8</td><td class="column-2">Heating overload (indoor heat exchanger temperature is abnormally high) and indoor heat exchanger thermistor is faulty.</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E9</td><td class="column-2">The float SW operates (with FS only). Drain up kit wiring fault.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E10</td><td class="column-2">When multi-unit control by remote controller is performed, the number of units is over (more than 17 units). Two remote controller are provided for one controller is performed.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E16</td><td class="column-2">Fan motor is faulty (FDTA 501, 601 type, FDKN type)</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E28</td><td class="column-2">Remote controller thermistor failure</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Outdoor Unit Side</strong></p>
+          
+<p>
+<table id="tablepress-228-no-2" class="tablepress tablepress-id-228">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E32</td><td class="column-2">Wiring is open or reversal phase (FDCA 301~601 type)</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E33</td><td class="column-2">Inverter primary side current is abnormal. (FDCVA151~251 type)</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1"></td><td class="column-2">Abnormal current cut of compressor (FDCA 301~601 type)</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E34</td><td class="column-2">52C secondary side L3-phase wiring is open. (FDCA 301~601 type)</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E35</td><td class="column-2">Outdoor heat exchanger temperature is high or outdoor heat exchanger thermistor is faulty</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E36</td><td class="column-2">Discharge temperature abnormality.</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E37</td><td class="column-2">Outdoor unit heat exchanger thermistor failure</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E38</td><td class="column-2">Outdoor air temperature thermistor failure</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E39</td><td class="column-2">Discharge pipe thermistor failure</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E40</td><td class="column-2">63H1 operation (FDCA 301~601 type)</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E42</td><td class="column-2">Current (Abnormalities in a compressor over current)</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E47</td><td class="column-2">Inverter Over-voltage Trouble. (FDCVA 151~251 type)</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E48</td><td class="column-2">DC fan motor abnormal. (FDCVA 151~251 type)</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E52</td><td class="column-2">52C abnormal. (FDCA 301~601 type)</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E56</td><td class="column-2">Power transistor thermistor is faulty or disconnection or connector connections are poor.</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E57</td><td class="column-2">Insufficient refrigerant.</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E59</td><td class="column-2">Compressor startup error (FDCVA 151~251 type)</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E60</td><td class="column-2">Compressor loader position detection error. (FDCVA 151~251 type)</td>
+</tr>
+</tbody>
+</table>
+</p>
+          
+<p>
+<table id="tablepress-229-no-2" class="tablepress tablepress-id-229">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Error Detail</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">Indoor Unit Side</td><td class="column-2"></td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E1</td><td class="column-2">Transmission error of remote controller indoor unit. Timing of error detection: After 1 or more communications of the indoor unit with the remote controller following power on, transmission errors cause an interruption for 2 minutes.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E5</td><td class="column-2">Transmission error between indoor/outdoor units. Timing of error detection: After communications with the outdoor unit 1 or more times, communications are abnormal continuously for 2 minutes.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E6</td><td class="column-2">Broken wire of heat exchanger thermistor. Timing of error detection: When an input temperature of –50°C or lower is measured by the heat exchanger thermistor is measured for 5 seconds or longer within 60 minutes after the first detection.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E7</td><td class="column-2">Broken wire of indoor unit return air thermistor. Timing of error detection: When an input temperature of –50°C or lower is measured by the return air thermistor is measured for 5 seconds or longer within 60 minutes after the first detection.</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E9</td><td class="column-2">Drain error (float switch motion). Timing of error detection: Normally, 30 seconds after the power is turned ON</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E10</td><td class="column-2">The number of connected indoor units exceeds the connection limit. Timing of error detection: Normally after the power is turned ON (during communications).</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">Outdoor Unit Side</td><td class="column-2"></td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E38</td><td class="column-2">Broken wire of outdoor air temperature thermistor. Timing of error detection: When a thermistor input temperature of –30°C or lower is measured for 5 seconds or longer 3 times within 40 (60) minutes after the 1st detection between 2 minutes and 2 minutes 20 seconds after compressor operation starts.</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E37</td><td class="column-2">Broken wire of heat exchanger thermister. Timing of error detection: When a thermistor input temperature of –30°C or lower is measured for 5 seconds or longer 3 times within 40 (60) minutes after the 1st detection between 2 minutes and 2 minutes 20 seconds after compressor operation starts.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E39</td><td class="column-2">Broken wire of discharge pipe thermistor. Timing of error detection: When a thermistor input temperature of –10°C or lower is measured for 5 seconds or longer 3 times within 40 (60) minutes after the 1st detection between 10 minutes and 10 minutes 20 seconds (between 2 minutes and 2 minutes 20 seconds) after compressor operation starts.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E55</td><td class="column-2">Broken wire of power transistor thermistor. Timing of error detection: When the under-dome thermistor input temperature of –10°C is measured for 5 seconds or longer 3 times within 40 minutes after the 1st detection between 10 minutes and 10 minutes 20 seconds after compressor operation starts.</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Inverter Wall Mounted Type Room AC Error Codes</strong></p>
+          
+<p>
+<table id="tablepress-65-no-2" class="tablepress tablepress-id-65 dataTable no-footer" role="grid" aria-describedby="tablepress-65-no-2_info">
+<thead>
+<tr class="row-1 odd" role="row"><th class="column-1 sorting" tabindex="0" aria-controls="tablepress-65-no-2" rowspan="1" colspan="1" aria-label="Error Codes: activate to sort column ascending" style="width: 64.6562px;">Error Codes</th><th class="column-2 sorting" tabindex="0" aria-controls="tablepress-65-no-2" rowspan="1" colspan="1" aria-label="Cause: activate to sort column ascending" style="width: 547.344px;">Cause</th></tr>
+</thead>
+<tbody class="row-hover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="row-2 even">
+	<td class="column-1">11</td><td class="column-2">Compressor lock. Compressor wiring short circuit. Compressor output is open phase. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-3 odd">
+	<td class="column-1">12</td><td class="column-2">Service valve closed. Compressor output is open phase. Electronic expansion valve is faulty.</td>
+</tr><tr class="row-4 even">
+	<td class="column-1">13</td><td class="column-2">Service valve is closed. Compressor output is open phase. Compressor is faulty. Electronic expansion valve is faulty.</td>
+</tr><tr class="row-5 odd">
+	<td class="column-1">14</td><td class="column-2">Outdoor unit’s circuit board is defective. Power supply is abnormal.</td>
+</tr><tr class="row-6 even">
+	<td class="column-1">15</td><td class="column-2">Outdoor unit’s circuit board is faulty. Power transistor is damaged.</td>
+</tr><tr class="row-7 odd">
+	<td class="column-1">16</td><td class="column-2">Outdoor unit’s circuit board is faulty. Power transistor is damaged.</td>
+</tr><tr class="row-8 even">
+	<td class="column-1">21</td><td class="column-2">Compressor wiring is disconnected. Power transistor is damaged.</td>
+</tr><tr class="row-9 odd">
+	<td class="column-1">22</td><td class="column-2">Compressor wiring is disconnected. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-10 even">
+	<td class="column-1">23</td><td class="column-2">Service valve is closed. Compressor output is open phase. Electronic expansion valve is faulty. Refrigerant is insufficient.</td>
+</tr><tr class="row-11 odd">
+	<td class="column-1">27</td><td class="column-2">Outdoor fan motor is faulty. Connector connections are poor. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-12 even">
+	<td class="column-1">29</td><td class="column-2">Power supply construction is defective. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-13 odd">
+	<td class="column-1">31</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-14 even">
+	<td class="column-1">32</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-15 odd">
+	<td class="column-1">33</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-16 even">
+	<td class="column-1">34</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-17 odd">
+	<td class="column-1">35</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-18 even">
+	<td class="column-1">36</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-19 odd">
+	<td class="column-1">37</td><td class="column-2">Overcharge. Compressor lock.</td>
+</tr><tr class="row-20 even">
+	<td class="column-1">41</td><td class="column-2">Overcharge. Compressor lock. Overload operation.</td>
+</tr><tr class="row-21 odd">
+	<td class="column-1">42</td><td class="column-2">Overcharge. Compressor lock. Overload operation.</td>
+</tr><tr class="row-22 even">
+	<td class="column-1">43</td><td class="column-2">Overcharge. Compressor lock. Overload operation.</td>
+</tr><tr class="row-23 odd">
+	<td class="column-1">44</td><td class="column-2">Overcharge. Compressor lock. Overload operation.</td>
+</tr><tr class="row-24 even">
+	<td class="column-1">45</td><td class="column-2">Overcharge. Compressor lock. Overload operation.</td>
+</tr><tr class="row-25 odd">
+	<td class="column-1">46</td><td class="column-2">Overcharge. Compressor lock. Overload operation.</td>
+</tr><tr class="row-26 even">
+	<td class="column-1">50</td><td class="column-2">Refrigerant is insufficient. Discharge pipe sensor is faulty. Service valve is closed.</td>
+</tr><tr class="row-27 odd">
+	<td class="column-1">51</td><td class="column-2">Cooling Problem.</td>
+</tr><tr class="row-28 even">
+	<td class="column-1">60</td><td class="column-2">Power supply is faulty. Power supply cables and signal lines are improperly wired. Indoor or outdoor unit circuit board is faulty.</td>
+</tr><tr class="row-29 odd">
+	<td class="column-1">61</td><td class="column-2">Connection lines between the indoor and outdoor units are faulty. Indoor or outdoor unit circuit boards are faulty.</td>
+</tr><tr class="row-30 even">
+	<td class="column-1">62</td><td class="column-2">Indoor or outdoor unit circuit boards are faulty. Noise is causing faulty operation.</td>
+</tr><tr class="row-31 odd">
+	<td class="column-1">71</td><td class="column-2">Compressor is faulty. Compressor output is open phase. Electronic expansion valve is faulty. Overload operation Outdoor unit circuit board is faulty.</td>
+</tr><tr class="row-32 even">
+	<td class="column-1">72</td><td class="column-2">Compressor is faulty. Compressor output is open phase. Electronic expansion valve is faulty. Overload operation Outdoor unit circuit board is faulty.</td>
+</tr><tr class="row-33 odd">
+	<td class="column-1">73</td><td class="column-2">Compressor is faulty. Compressor wiring is disconnected. Compressor wiring is short circuited. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-34 even">
+	<td class="column-1">74</td><td class="column-2">Compressor is faulty. Compressor wiring is disconnected. Compressor wiring is short circuited. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-35 odd">
+	<td class="column-1">75</td><td class="column-2">Compressor is faulty. Compressor wiring is disconnected. Compressor wiring is short circuited. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-36 even">
+	<td class="column-1">76</td><td class="column-2">Compressor is faulty. Compressor wiring is disconnected. Compressor wiring is short circuited. Outdoor unit’s circuit board is faulty.</td>
+</tr><tr class="row-37 odd">
+	<td class="column-1">80</td><td class="column-2">Fan motor is faulty. Connector connections are poor. Indoor unit circuit board is faulty.</td>
+</tr><tr class="row-38 even">
+	<td class="column-1">81</td><td class="column-2">Discharge pipe sensor wire is disconnected. Connector connections are poor.</td>
+</tr><tr class="row-39 odd">
+	<td class="column-1">82</td><td class="column-2">Indoor heat exchanger sensor wire is disconnected. Connector connections are poor.</td>
+</tr><tr class="row-40 even">
+	<td class="column-1">83</td><td class="column-2">Outdoor heat exchanger sensor wire is disconnected. Connector connections are poor.</td>
+</tr><tr class="row-41 odd">
+	<td class="column-1">84</td><td class="column-2">High humidity condition. Humidity sensor is faulty.</td>
+</tr><tr class="row-42 even">
+	<td class="column-1">85</td><td class="column-2">Indoor unit fan speed drops. Indoor heat exchanger sensor short circuit.</td>
+</tr><tr class="row-43 odd">
+	<td class="column-1">86</td><td class="column-2">Heating overload. Indoor unit fan speed drops. Indoor heat exchanger sensor short circuit</td>
+</tr><tr class="row-44 even">
+	<td class="column-1">87</td><td class="column-2">Refrigerant is insufficient. Discharge pipe sensor is faulty. Service valve is closed.</td>
+</tr><tr class="row-45 odd">
+	<td class="column-1">88</td><td class="column-2">Service valve is closed. Refrigerant is insufficient.</td>
+</tr></tbody>
+</table>
+</p>
+
+<p><strong>VRF Inverter Multi System (KX4 series and KX6 series):</strong></p>
+          
+<p>
+<table id="tablepress-230-no-2" class="tablepress tablepress-id-230">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Remote Control Error Codes</th><th class="column-2">Description of Fault</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E1</td><td class="column-2">Remote controller communication error. Possible Cause:&nbsp;Anomalous communication circuit between remote controller and indoor unit, Noise.</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E2</td><td class="column-2">Duplicated indoor unit addressing more than 49 units connected. Possible Cause: Number of connected indoor units exceeds the limitation, Duplicated indoor unit address, Indoor PCB anomaly.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E3</td><td class="column-2">Outdoor unit signal line error. Possible Cause: Power is not suppied to outdoor unit, Unmatch of pairing between indoor and outdoor units, Indoor PCB anomaly, Outdoor control PCB anomaly, Missing local wiring.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E5</td><td class="column-2">Communication error during operation. Possible Cause: Unit address No. setting error, Remote control wires broken, Poor connection/ disconnection of remote controller wires, Indoor control PCB anomaly, Noise.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E6</td><td class="column-2">Indoor heat exchanger temp. sensor anomaly (Thi-R). Possible Cause: Sensor anomaly, Poor connection, Indoor control PCB anomaly.</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E7</td><td class="column-2">Indoor return air temp. sensor anomaly (Thi-A). Possible Cause: Sensor anomaly, Poor connection, Indoor control PCB anomaly.</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E9</td><td class="column-2">Drain trouble. Possible Cause: Blocked drain, Drain pump anomaly, Float switch anomaly, Indoor contyrol PCB anomaly.</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E10</td><td class="column-2">Excessive number of indoor units by controlling one renote controller. Possible Cause: Excessive number of indoor units connected (more than 17 units), Remote controller anomaly.</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E11</td><td class="column-2">Address setting error (setting with remote controller). Possible Cause: When plural indoor units are connected, do not use remote controller address setting method.</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E12</td><td class="column-2">Address setting error by mixed setting method. Possible Cause: The atomatic setting and manual setting mixed in the address setting method for indoor units.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E16</td><td class="column-2">Indoor fan motor anomaly. Possible Cause: Fan motor anomaly, Poor connection, Indoor PCB anomaly.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E18</td><td class="column-2">Address setting error of master and slave indoor remote controller. Possible Cause: Remote controller SW address setting error of master and slave indoor units.</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E19</td><td class="column-2">Indoor unit operation check, drain motor check mode anomaly. Possible Cause: Mistake in SW7-1 setting due to forgetting to turn OFF SW7-1 after indoor operation check finished.</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E20</td><td class="column-2">Indoor fan motor rotationtion speed anomaly (FDT, FDTC, FDK, FDTW). Possible Cause: DC fan motor revolution speed anomaly, Indoor power (control) PCB anomaly, Foreign material at rotational area of fan motor.</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E21</td><td class="column-2">FDT Limit switch is not activated. Possible Cause: Limit switch on the panel anomaly, Anomalous mounting position of gille, Connector CNV loose.</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E22</td><td class="column-2">Wrong connection with Outdoor unit. Possible Cause: Unmatched pairing of indoor and outdoor unit, Indoor control PCB anomaly, Outdoor control PCB anomaly.</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E28</td><td class="column-2">Remote controller temp. sensor anomaly (Thc). Possible Cause: Remote controller temp. sensor anomaly, Poor connection, Remote controller PCB anomaly.</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E30</td><td class="column-2">Unmatch connection of indoor and outdoor unit. Possible Cause: Indoor control PCB anomaly, Outdoor control PCB anomaly.</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">E31</td><td class="column-2">Duplicated outdoor unit address No.. Possible Cause: Mistake in the address setting of outdoor units, More than 129 indoor units connected, No setting of Master/Slave setting switch for combination use.</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">E32</td><td class="column-2">Open L3 phase on power supply at primary side. Possible Cause: Anomalous power supply at primary side, Outdoor control PCB anomaly.</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">E36</td><td class="column-2">1.Discharge pipe temp. sensor anomaly, Outdoor control PCB anomaly, Short circuit of airflow, Insufficient airflow volume, Insufficient amount of refrigerant, SV1, 2 (liquid refrigerant by pass valve) anomaly. 2. Liquid flooding anomaly. Overcharging of refrigerant, Superheat control anomaly, Circuit of liquid refrigerant by pass anomaly, Discharge pipe temp. sensor anomaly, EEV indoor anomaly.</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">E37</td><td class="column-2">Outdoor heat exchanger temp. sensor (Tho-R) and subcooling coil temp. sensor (Tho-SC, -H) anomaly. Possible Cause: Broken sensor harness or the internal wire of sensing section, Poor connection, Outdoor contron PCB anomaly.</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">E38</td><td class="column-2">Outdoor air temp. sensor anomaly&nbsp; (Tho-A). Possible Cause: Broken sensor harness or the internal wire of sensing section, Poor connection, Outdoor contron PCB anomaly.</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">E39</td><td class="column-2">Discharge pipe temp. sensor anomaly (Tho-D1, D2). Possible Cause: Broken sensor harness or the internal wire of sensing section, Poor connection, Outdoor contron PCB anomaly.</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">E40</td><td class="column-2">High pressure anomaly (63H1-1,2 activated). Possible Cause: Disconnection of high pressure switch connector, High pressure sensor anomaly, High pressure switch anomaly, Short circuit of airflow at condenser, Close service valve.</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">E41 </td><td class="column-2">Power transistor overheat. Possible Cause: Power transistor anomaly, Power transistor temp. sensor anomaly, Improperly fixing of power transistor to radiator fin, Inverter PCB anomaly, Outdoor fan motor anomaly, Cooling fan motor for inverter anomaly, Inadequate installation space of outdoor unit.</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">E51</td><td class="column-2">Power transistor overheat. Possible Cause: Power transistor anomaly, Power transistor temp. sensor anomaly, Improperly fixing of power transistor to radiator fin, Inverter PCB anomaly, Outdoor fan motor anomaly, Cooling fan motor for inverter anomaly, Inadequate installation space of outdoor unit.</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">E42</td><td class="column-2">Current cut (CM1, CM2). Possible Cause: Compressor anomaly, Leakage of refrigerant, Power transistor module anomaly, Anomalous power supply for inverter PCB, Outdoor fan motor anomaly.</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">E43</td><td class="column-2">Excessive number of indoor units connected, excessive total capacity. Possible Cause: Mistake in setting of indoor/outdoor unit addresses, Mistake in signal wire connection.</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">E45</td><td class="column-2">Communication error between inverter PCB and outdoor control PCB. Possible Cause: Signal wire anomaly, Outdoor control PCB anomaly, Inverter PCB (INV1,2) anomaly, Rush current prevention resistor anomaly.</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">E46</td><td class="column-2">Mixed address setting methods conexistent in same network. Possible Cause: Mistake in the address setting, Mistake in the connection of signal wire.</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">E48</td><td class="column-2">Outdoor DC fan motor anomaly. Possible Cause: Outdoor fan motor anomaly, Poor connection, Inverter PCB anomaly, Outdoor control PCB anomaly.</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">E49</td><td class="column-2">Low pressure anomaly. Possible Cause: Low pressure sensor anomaly, Service valves closed, EEV anomaly (EEV closed), Insufficient refrigerant amount, Clogging at EEV or strainer.</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">E53</td><td class="column-2">Suction pipe temp. sensor anomaly (Tho-S). Possible Cause: Broken sensor harness or the internal wire of sensing section, Poor connection, Outdoor contron PCB anomaly.</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">E54</td><td class="column-2">High pressure sensor anomaly (PSH)/ Low pressure sensoe anomaly (PSL). Possible Cause: Broken sensor harness, Disconnection of sensor, Sensor (PSH, PSL) anomaly, Outdoor control PCB anomaly, Anomalous installation condition, Insufficient airflow volume, Excessive or insufficient refrigerant amount.</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">E55</td><td class="column-2">Under-dome temp. sensor anomaly (Tho-C1, C2). Possible Cause: Broken sensor harness or the internal wire of sensing section, Poor connection, Outdoor contron PCB anomaly.</td>
+</tr>
+<tr class="row-38 even">
+	<td class="column-1">E56</td><td class="column-2">Power transistor temp. senser anomaly (Tho-P1, P2). Possible Cause: Broken sensor harness or the internal wire of sensing section, Poor connection, Outdoor contron PCB anomaly.</td>
+</tr>
+<tr class="row-39 odd">
+	<td class="column-1">E58</td><td class="column-2">Anomalous compressor by loss of synchronism. Possible Cause: Insufficient time elapsed after the power supplied before compressor startup, Startup compressor without crankcase heater ON, Compressor anomaly.</td>
+</tr>
+<tr class="row-40 even">
+	<td class="column-1">E59</td><td class="column-2">Compressor startup failure (CM1, CM2). Possible Cause: Anomalous voltage of power supply, Anomalous components for refrigerant circuit, Inverter PCB anomaly, Loose connection of connector or cable, Compressor anomaly (Motor or bearing)</td>
+</tr>
+<tr class="row-41 odd">
+	<td class="column-1">E60</td><td class="column-2">Rotor position detection failure (CM1, CM2). Possible Cause: Compressor anomaly, Inverter PCB anomaly, Anomaly of power supply.</td>
+</tr>
+<tr class="row-42 even">
+	<td class="column-1">E61</td><td class="column-2">Communication error between the master unit and slave units. Possible Cause: Signal wire anomaly, Outdoor control PCB anomaly, Inverter PCB (INV1,2) anomaly, Rush current prevention resistor anomaly.</td>
+</tr>
+<tr class="row-43 odd">
+	<td class="column-1">E63</td><td class="column-2">Emergency stop. Possible Cause: Factors for emergency stop.</td>
+</tr>
+<tr class="row-44 even">
+	<td class="column-1">E75</td><td class="column-2">Central control communication error. Possible Cause: Poor connection, faulty controller.</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Mitsubishi heavy industries air conditioner timer light flashing:</strong></p>
+          
+<p>
+<table id="tablepress-246-no-2" class="tablepress tablepress-id-246">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">RUN light</th><th class="column-2">TIMER light</th><th class="column-3">Outdoor unit LED</th><th class="column-4">Wired remote control display</th><th class="column-5">Description of trouble</th><th class="column-6">Cause</th><th class="column-7">Display (flashing) condition</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">1 time flash</td><td class="column-2">ON</td><td class="column-3">—</td><td class="column-4">—</td><td class="column-5">Heat exchanger sensor 1 error</td><td class="column-6">Broken heat exchanger sensor 1 wire, poor connector connection</td><td class="column-7">When a heat exchanger sensor 1 wire disconnection is detected while operation is stopped. (If a temperature of –28ºC or lower is detected for 15 seconds, it is judged that the wire is disconnected.) (Not displayed during operation.)</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">2 time flash</td><td class="column-2">ON</td><td class="column-3">—</td><td class="column-4">—</td><td class="column-5">Room temperature sensor error</td><td class="column-6">Broken room temperature sensor wire, poor connector connection</td><td class="column-7">When a room temperature sensor wire disconnection is detected while operation is stopped. (If a temperature of –45ºC or lower is detected for 15 seconds, it is judged that the wire is disconnected.) (Not displayed during operation.)</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">3 time flash</td><td class="column-2">ON</td><td class="column-3">—</td><td class="column-4">—</td><td class="column-5">Heat exchanger sensor 3 error</td><td class="column-6">Broken heat exchanger sensor 3 wire, poor connector connection</td><td class="column-7">When a heat exchanger sensor wire 3 disconnection is detected while operation is stopped. (If a temperature of –28ºC or lower is detected for 15 seconds, it is judged that the wire is disconnected.) (Not displayed during operation.)</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">6 time flash</td><td class="column-2">ON</td><td class="column-3">—</td><td class="column-4">E16</td><td class="column-5">Indoor fan motor error</td><td class="column-6">Defective fan motor, poor connector connection</td><td class="column-7">When conditions for turning the indoor unit’s fan motor on exist during air conditioner operation, an indoor unit fan motor speed of 300 rpm or lower is measured for 30 seconds or longer. (The air conditioner stops.)</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">Keeps flashing</td><td class="column-2">1 time flash</td><td class="column-3">8 time flash</td><td class="column-4">E38</td><td class="column-5">Outdoor air temperature sensor error</td><td class="column-6">Broken outdoor air temp. sensor wire, poor connector connection</td><td class="column-7">When an outdoor temperature sensor wire disconnection is detected while the power is turned on or after the outdoor unit’s speed has continued at 0rps or higher for 2 minutes. (If a temperature of –55ºC or lower is detected for 20 seconds, it is judged that wire is disconnected.) (The compressor is stopped.)</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">Keeps flashing</td><td class="column-2">2 time flash</td><td class="column-3">8 time flash</td><td class="column-4">E37</td><td class="column-5">Outdoor heat exchanger sensor erro</td><td class="column-6">Broken heat exchanger sensor wire, poor connector connection</td><td class="column-7">When a heat exchanger sensor wire disconnection is detected while the power is turned on or after the outdoor unit’s speed has continued at 0rps or higher for 2 minutes. (If a temperature of –55ºC or lower is detected for 20 seconds, it is judged that wire is disconnected.) (The compressor is stopped.)</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">Keeps flashing</td><td class="column-2">4 time flash</td><td class="column-3">8 time flash</td><td class="column-4">E39</td><td class="column-5">Discharge pipe sensor error</td><td class="column-6">Broken discharge pipe sensor wire, poor connector connection</td><td class="column-7">When a discharge pipe sensor wire disconnection is detected after the outdoor unit’s speed has continued at 0rps or higher for 10 minutes. (If a temperature of –25ºC or lower is detected for 20 seconds, it is judged that wire is disconnected.) (The compressor is stopped.)</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">ON</td><td class="column-2">1 time flash</td><td class="column-3">1 time flash</td><td class="column-4">E42</td><td class="column-5">Current Cut</td><td class="column-6">Compressor locking, open phase on compressor output, shortcircuit on power transistor, closed service valve</td><td class="column-7">The inverter output current (compressor motor current) exceeds the set value during compressor start. (The air conditioner stops.)</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">ON</td><td class="column-2">2 time flash</td><td class="column-3">2 time flash</td><td class="column-4">E59</td><td class="column-5">Trouble of outdoor unit</td><td class="column-6">Broken compressor wire. Compressor blockage.</td><td class="column-7">When there is an emergency stop caused by trouble in the outdoor unit, or the input current value is found to be lower than the set value. (The air conditioner stops.)</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">ON</td><td class="column-2">3 time flash</td><td class="column-3">3 time flash</td><td class="column-4">E58</td><td class="column-5">Current safe stop</td><td class="column-6">Overload operation. Overcharge. Compressor locking.</td><td class="column-7">When the inverter command speed is lower than the set value and the current safe has operated. (the compressor stops)</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">ON</td><td class="column-2">4 time flash</td><td class="column-3">1 time flash</td><td class="column-4">E51</td><td class="column-5">Powe rtransistor error</td><td class="column-6">Broken power transistor</td><td class="column-7">When the power transistor is judged breakdown while compressor starts. (The compressor is stopped.)</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">ON</td><td class="column-2">5 time flash</td><td class="column-3">5 time flash</td><td class="column-4">E36</td><td class="column-5">Over heat of ON compressor</td><td class="column-6">Gas shortage, defective discharge pipe sensor, closed service valve</td><td class="column-7">When the value of the discharge pipe sensor exceeds the set value. (The air conditioner stops.)</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">ON</td><td class="column-2">6 time flash</td><td class="column-3">6 time flash</td><td class="column-4">E3-E5</td><td class="column-5">Error of signal transmission</td><td class="column-6">Defective power supply, Broken signal wire, defective in/outdoor unit boards.</td><td class="column-7">When there is no signal between the indoor unit’s board and outdoor unit’s board for 10 seconds or longer (when the power is turned on), or when there is no signal for 7 minute 35 seconds or longer (during operation)(the compressor is stopped).</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">ON</td><td class="column-2">7 time flash</td><td class="column-3">ON</td><td class="column-4">E48</td><td class="column-5">Outdoor fan motor error</td><td class="column-6">Defective fan motor, poor connector connection</td><td class="column-7">When the outdoor unit’s fan motor speed continues for 30 seconds or longer at 75 rpm or lower. (3 times) (The air conditioner stops.)</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">ON</td><td class="column-2">Keeps flashing</td><td class="column-3">2 time flash</td><td class="column-4">E35</td><td class="column-5">Cooling high pressure protecton</td><td class="column-6">Overload operation, overcharge. Broken outdoor heat exchange sensor wire. Closed service valve.</td><td class="column-7">When the value of the outdoor heat exchanger sensor exceeds the set value.</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">2 time flash</td><td class="column-2">2 time flash</td><td class="column-3">7 time flash</td><td class="column-4">E60</td><td class="column-5">Rotor lock</td><td class="column-6">Defective compressor. Open phase on compressor. Defective outdoor unit boards.</td><td class="column-7">If the compressor motor’s magnetic pole positions cannot be correctly detected when the compressor starts. (The air conditioner stops.)</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">5 time flash</td><td class="column-2">ON</td><td class="column-3">2 time flash</td><td class="column-4">E47</td><td class="column-5">Active filter ON voltage error</td><td class="column-6">Defective active filter </td><td class="column-7">When the wrong voltage connected for the power supply. When the outdoor control PCB is faulty</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">—</td><td class="column-2">—</td><td class="column-3">—</td><td class="column-4">E1</td><td class="column-5">Error of wired remote control wiring</td><td class="column-6">Broken wired remote control wire, defective indoor unit boards</td><td class="column-7">The wired remote control wire Y is open. The wired remote control wires X and Y are reversely connected. Noise is penetrating the wired remote control lines. The wired remote control or indoor control PCB is faulty. (The communications circuit is faulty.)</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Error code, stop code table </strong>(Assignment of error codes and stop codes is done in common for all models.)</p>          
+<p>
+<table id="tablepress-247-no-2" class="tablepress tablepress-id-247">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">RUN light (10's digit)</th><th class="column-2">TIMER light (1's digit)</th><th class="column-3">Stop code or Error code</th><th class="column-4">Error content-Cause-Occurrence conditions </th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">OFF</td><td class="column-2">OFF</td><td class="column-3">0</td><td class="column-4"> Normal</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">OFF</td><td class="column-2">5 time flash</td><td class="column-3">05</td><td class="column-4">Can not receive signals for 35 seconds (if communications have recovered). Power supply is faulty. Power supply cables and signal lines are improperly wired. Indoor or outdoor unit circuit boards are faulty. When 35 seconds passes without communications signals from either the outdoor unit or the indoor unit being detected correctly.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">3 time flash</td><td class="column-2">5 time flash</td><td class="column-3">35</td><td class="column-4">Cooling high pressure control. Cooling overload operation. Outdoor unit fan speed drops. Outdoor heat exchanger sensor is short circuit. When the outdoor heat exchanger sensor's value exceeds the set value.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">3 time flash</td><td class="column-2">6 time flash</td><td class="column-3">36</td><td class="column-4">Compressor overheat (115˚C). Refrigerant is insufficient. Discharge pipe sensor is faulty. Service valve is closed. When the discharge pipe sensor's value exceeds the set value.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">3 time flash</td><td class="column-2">7 time flash</td><td class="column-3">37</td><td class="column-4">Outdoor heat exchanger sensor is abnormal. Outdoor heat exchanger sensor wire is disconnected. Connector connections are poor. When a temperature of –55˚C or lower is sensed continuously for 20 seconds while the power is turned on or after the outdoor unit's speed has continued at 0rps or higher for 2 minutes (the compressor stops).</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">3 time flash</td><td class="column-2">8 time flash</td><td class="column-3">38</td><td class="column-4">Outdoor air temperature sensor is abnormal. Outdoor air temperature sensor wire is disconnected. Connector connections are poor. When a temperature of –55˚C or lower is sensed continuously for 20 seconds while the power is turned on or after the outdoor unit's speed has continued at 0rps or higher for 2 minutes (the compressor stops).</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">3 time flash</td><td class="column-2">9 time flash</td><td class="column-3">39</td><td class="column-4">Discharge pipe sensor is abnormal (anomalous stop). Discharge pipe sensor wire is disconnected. Connector connections are poor. When a temperature of –25˚C or lower is sensed continuously for 20 seconds after the outdoor unit's speed has continued at 0rps or higher for 10 minutes (the compressor stops).</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">4 time flash</td><td class="column-2">2 time flash</td><td class="column-3">42</td><td class="column-4">Current cut. Compressor lock. Compressor wiring short circuit. Compressor output is open phase. Outdoor unit's circuit board is faulty. Service valve is closed. Electronic expansion valve is faulty. Compressor is faulty. Compressor start fails 42 times in succession and the reason for the final failure is current cut. </td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">4 time flash</td><td class="column-2">7 time flash</td><td class="column-3">47</td><td class="column-4">Active filter voltage error. Defective active filter. When the wrong voltage connected for the power supply. When the outdoor control PCB is faulty</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">4 time flash</td><td class="column-2">8 time flash</td><td class="column-3">48</td><td class="column-4">Outdoor unit's fan motor is abnormal. Outdoor fan motor is faulty. Connector connections are poor. Outdoor unit's circuit board is faulty. When a fan speed of 75 rpm or lower continues for 30 seconds or longer.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">5 time flash</td><td class="column-2">1 time flash</td><td class="column-3">51</td><td class="column-4">Short circuit in the power transistor (high side) Current cut circuit breakdown. Outdoor unit's circuit board is faulty. Power transistor is damaged. When it is judged that the power transistor was damaged at the time the compressor started.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">5 time flash</td><td class="column-2">7 time flash</td><td class="column-3">57</td><td class="column-4">Refrigeration cycle system protective control. Service valve is closed. Refrigerant is insufficient. When refrigeration cycle system protective control operates.</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">5 time flash</td><td class="column-2">8 time flash</td><td class="column-3">58</td><td class="column-4">Current safe. Refrigerant is overcharge. Compressor lock. Overload operation. When there is a current safe stop during operation.</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">5 time flash</td><td class="column-2">9 time flash</td><td class="column-3">59</td><td class="column-4">Compressor wiring is unconnection Voltage drop Low speed protective control. Compressor wiring is disconnected. Power transistor is damaged. Power supply construction is defective. Outdoor unit's circuit board is faulty. When the current is 1A or less at the time the compressor started. When the power supply voltage drops during operation. When the outdoor unit's speed is lower than 26 rps for 60 minutes.</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">6 time flash</td><td class="column-2">OFF</td><td class="column-3">60</td><td class="column-4">Rotor lock. Compressor is faulty. Compressor output is open phase. Electronic expansion valve is faulty. Overload operation. Outdoor unit's circuit board is faulty. After the compressor starts, when the compressor stops due to rotor lock.</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">6 time flash</td><td class="column-2">1 time flash</td><td class="column-3">61</td><td class="column-4">Connection lines between the indoor and outdoor units are faulty. Connection lines are faulty. Indoor or outdoor unit circuit boards are faulty. When 10 seconds passes after the power is turned on without communications signals from the indoor or outdoor unit being detected correctly.</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">6 time flash</td><td class="column-2">2 time flash</td><td class="column-3">62</td><td class="column-4">Serial transmission error. Indoor or outdoor unit circuit boards are faulty. Noise is causing faulty operation. When 7 minute 35 seconds passes without communications signals from either the outdoor unit or the indoor unit being detected correctly. </td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">8 time flash</td><td class="column-2">OFF</td><td class="column-3">80</td><td class="column-4">Indoor unit's fan motor is abnormal. Indoor fan motor is faulty. Connector connections are poor. Indoor unit's circuit board is faulty. When the indoor unit's fan motor is detected to be running at 300 rpm or lower speed with the fan motor in the ON condition while the air conditioner is running.</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">8 time flash</td><td class="column-2">2 time flash</td><td class="column-3">82</td><td class="column-4">Indoor heat exchanger sensor is abnormal (anomalous stop). Indoor heat exchanger sensor wire is disconnected. Connector connections are poor. When a temperature of –28˚C or lower is sensed continuously for 40 minutes during heating operation. (the compressor stops).</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">8 time flash</td><td class="column-2">4 time flash</td><td class="column-3">84</td><td class="column-4">Anti-condensation control. High humidity condition. Humidity sensor is faulty. Anti-condensation prevention control is operating.</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">8 time flash</td><td class="column-2">5 time flash</td><td class="column-3">85</td><td class="column-4">Anti-frost control. Indoor unit fan speed drops. Indoor heat exchanger sensor is broken wire. When the anti-frost control operates and the compressor stops during cooling operation.</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">8 time flash</td><td class="column-2">6 time flash</td><td class="column-3">86</td><td class="column-4">Heating high pressure control. Heating overload operation. Indoor unit fan speed drops. Indoor heat exchanger sensor is short circuit. When high pressure control operates during heating operation and the compressor stops.</td>
+</tr>
+</tbody>
+</table>
+</p>
+         </div>
+      
+          
+      
+   </body>
+</html>

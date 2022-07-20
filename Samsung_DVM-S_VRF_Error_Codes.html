@@ -1,0 +1,788 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+      <link rel = "stylesheet" 
+         href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <style>
+         body {
+            color:black;
+         }
+      </style>
+<style>
+         table {
+            border: 1px solid;
+	   
+         }
+	 th {
+		border: 2px solid;
+		padding: 15px;
+		}
+
+	 tr {
+		border: 2px solid;
+		}
+		
+	  td {
+		border: 1px solid;
+		padding: 15px;
+		}
+      </style>
+   </head>
+   <body>
+   
+       
+      
+          
+         
+<div class = "col-md-8">
+
+<p><strong>Error code related indoor unit:</strong></p>
+            
+<p>
+<table id="tablepress-50-no-2" class="tablepress tablepress-id-50">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Explanation</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E-101</td><td class="column-2">Indoor unit communication error. Indoor unit can not receive any data from outdoor unit.</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E-102</td><td class="column-2">Communication error between indoor unit and outdoor unit. Displayed in indoor unit.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E-108</td><td class="column-2">Error due to repeated address setting (When 2 or more devices has same address within the network)</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E-121</td><td class="column-2">Error on indoor temperature sensor of indoor unit (Short or Open)</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E-122</td><td class="column-2">Error on EVA IN sensor of indoor unit (Short or Open)</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E-123</td><td class="column-2">Error on EVA OUT sensor of indoor unit (Short or Open)</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E-128</td><td class="column-2">EVA IN temperature sensor of indoor unit is detached from EVA IN pipe</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E-129</td><td class="column-2">EVA OUT temperature sensor of indoor unit is detached from EVA OUT pipe</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E-130</td><td class="column-2">Heat exchanger in/out sensors of indoor unit are detached</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E-135</td><td class="column-2">RPM feedback error of indoor unit's cleaning fan</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E-149</td><td class="column-2">Error due to AHU master indoor unit sensor setting.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E-151</td><td class="column-2">Error due to opened EEV of indoor unit (2nd detection)</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E-152</td><td class="column-2">Error due to closed EEV of indoor unit (2nd detection)</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E-153</td><td class="column-2">Error on floating switch of indoor unit (2nd detection)</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E-154</td><td class="column-2">RPM feedback error of indoor unit</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E-161</td><td class="column-2">Mixed operation mode error of indoor unit; When outdoor unit is getting ready to operate in cooling (or heating) and some of the indoor unit is trying to operate in heating (or cooling) mode</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E-162</td><td class="column-2">EEPROM error of MICOM (Physical problem of parts/circuit)</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E-163</td><td class="column-2">Indoor unit's remote controller option input is Incorrect or missing. Outdo or unit EEPROM data error</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">E-180</td><td class="column-2">Simultaneous opening of cooling/heating MCU SOL V/V (1st detection)</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">E-181</td><td class="column-2">Simultaneous opening of cooling/heating MCU SOL V/V (2nd detection)</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">E-185</td><td class="column-2">Cross wiring error between communication and power cable of indoor unit</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">E-186</td><td class="column-2">Connection error or problem on SPi</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">E-190</td><td class="column-2">No temperature changes in EVA IN during pipe inspection or changes in temperature is seen in indoor unit with wrong address</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">E-191</td><td class="column-2">No temperature changes in EVA OUT during pipe inspection or changes in temperature is seen in indoor unit with wrong address</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">E-198</td><td class="column-2">Error due to disconnected thermal fuse of indoor unit</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Error code related to the Communications / Settings / HW (cont.)</strong></p>
+            
+<p>
+<table id="tablepress-51-no-2" class="tablepress tablepress-id-51">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E-201</td><td class="column-2">Communication error between indoor and outdoor units (installation number setting error, repeated indoor unit address, indoor unit communication cable error)</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E-202</td><td class="column-2">Communication error between indoor and outdoor units (Communication error on all indoor unit, outdoor unit communication cable error)</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E-203</td><td class="column-2">Communication error between main and sub outdoor units</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E-205</td><td class="column-2">Communication error on all PBA within the outdoor unit C-Box, communication cable error</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E-206</td><td class="column-2">E206-C001: HUB PBA communication error / E206-C002: FAN PBA communication errorE206-C003: INV1 PBA communication error / E206-C004: INV2 PBA communication error</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E-211</td><td class="column-2">When single indoor unit uses 2 MCU ports that are not in series</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E-212</td><td class="column-2">If the rotary switch (on the MCU) for address setting of the indoor unit has 3 or more of the same address</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E-213</td><td class="column-2">When total number of indoor units assigned to MCU is same as actual number of installed indoor units but there is indoor unit that is not installed even though it is assigned on MCU</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E-214</td><td class="column-2">When number of MCU is not set correctly on the outdoor unit or when two or more MCU was installed some of them have the same address</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E-215</td><td class="column-2">When two different MCU’s have same address value on the rotary switch</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E-216</td><td class="column-2">When indoor unit is not installed to a MCU port but the switch on the port is set to On.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E-217</td><td class="column-2">When indoor unit is connected to a MCU port but indoor unit is assigned to a MCU and the switch on the port is set to Off</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E-218</td><td class="column-2">When there’s at least one or more actual number of indoor unit connection compared to number of indoor units assigned to MCU</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E-219</td><td class="column-2">Error on temperature sensor located on MCU intercooler inlet (Short or Open)</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E-220</td><td class="column-2">Error on temperature sensor located on MCU intercooler outlet (Short or Open)</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E-221</td><td class="column-2">Error on outdoor temperature sensor of outdoor unit (Short or open)</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E-231</td><td class="column-2">Error on COND OUT temperature sensor of main outdoor unit (Short or Open)</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E-241</td><td class="column-2">COND OUT sensor is detached</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">E-251</td><td class="column-2">Error on discharge temperature sensor of compressor 1 (Short or Open)</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">E-257</td><td class="column-2">Error on discharge temperature sensor of compressor 2 (Short or Open)</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">E-262</td><td class="column-2">Discharge temperature sensor of compressor 1 is detached from the sensor holder on the pipe</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">E-263</td><td class="column-2">Discharge temperature sensor of compressor 2 is detached from the sensor holder on the pipe</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">E-266</td><td class="column-2">Top sensor of compressor 1 is detached</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">E-267</td><td class="column-2">Top sensor of compressor 2 is detached</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">E-269</td><td class="column-2">Suction temperature sensor is detached from the sensor holder on the pipe</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">E-276</td><td class="column-2">Error on top sensor of compressor 1 (Short or Open)</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">E-277</td><td class="column-2">Error on top sensor of compressor 2 (Short or Open)</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">E-291</td><td class="column-2">Refrigerant leakage or error on high pressure sensor (Short or Open)</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">E-296</td><td class="column-2">Refrigerant leakage or error on low pressure sensor (Short or Open)</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">E-308</td><td class="column-2">Error on suction temperature sensor (Short or Open)</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">E-311</td><td class="column-2">Error on temperature sensor of double layer pipe/liquid pipe(sub heat exchanger) (Short or Open)</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">E-321</td><td class="column-2">Error on EVI (ESC) IN temperature sensor (Short or Open)</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">E-322</td><td class="column-2">Error on EVI (ESC) OUT temperature sensor (Short or Open)</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">E-323</td><td class="column-2">Error on suction sensor 2 (Short or Open)</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">E-346</td><td class="column-2">Error due to operation failure of Fan2</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">E-347</td><td class="column-2">Motor wire of Fan2 is not connected</td>
+</tr>
+</tbody>
+</table>
+</p>
+            
+<p>
+<table id="tablepress-52-no-2" class="tablepress tablepress-id-52">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E-348</td><td class="column-2">Lock error on Fan2 of outdoor unit</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E-353</td><td class="column-2">Error due to overheated motor of outdoor unit's Fan2</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E-355</td><td class="column-2">Error due to overheated IPM of Fan2</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E-361</td><td class="column-2">Error due to operation failure of inverter compressor 2</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E-364</td><td class="column-2">Error due to over-current of inverter compressor 2</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E-365</td><td class="column-2">V-limit error of inverter compressor 2</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E-366</td><td class="column-2">Error due to over voltage /low voltage of inverter PBA2</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E-367</td><td class="column-2">Error due to unconnected wire of compressor 2</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E-368</td><td class="column-2">Output current sensor error of inverter PBA2</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E-369</td><td class="column-2">DC voltage sensor error of inverter PBA2</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E-374</td><td class="column-2">Heat sink temperature sensor error of inverter PBA2</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E-378</td><td class="column-2">Error due to overcurrent of Fan2</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E-385</td><td class="column-2">Error due to input current of inverter 2</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E-386</td><td class="column-2">Over-voltage/low-voltage error of Fan2</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E-387</td><td class="column-2">Hall IC connection error of Fan2</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E-389</td><td class="column-2">V-limit error on Fan2 of compressor</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E-393</td><td class="column-2">Output current sensor error of Fan2</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E-396</td><td class="column-2">DC voltage sensor error of Fan2</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">E-399</td><td class="column-2">Heat sink temperature sensor error of Fan2</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">E-400</td><td class="column-2">Error due to overheat caused by contact failure on IPM of Inverter PBA2</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">E-407</td><td class="column-2">Compressor operation stop due to high pressure protection control</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">E-410</td><td class="column-2">Compressor operation stop due to low pressure protection control or refrigerant leakage</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">E-416</td><td class="column-2">Compressor operation stop due to discharge temperature protection control</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">E-425</td><td class="column-2">Phase reversal or phase failure (3Ø outdoor unit wiring, R-S-T-N ), connection error on 3 phase input</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">E-428</td><td class="column-2">Compressor operation stop due abnormal compression ratio</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">E-438</td><td class="column-2">EVI (ESC) EEV leakage or internal leakage of intercooler or incorrect connector insertion of EVI (ESC) EEV</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">E-439</td><td class="column-2">Error due to refrigerant leakage</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">E-440</td><td class="column-2">Heating mode restriction due to high air temperature</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">E-441</td><td class="column-2">Cooling mode restriction due to low air temperature</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">E-442</td><td class="column-2">Refrigerant charing restriction in heating mode when air temperature is over 15 °C</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">E-443</td><td class="column-2">Operation prohibited due to low pressure</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">E-445</td><td class="column-2">CCH is deatched</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">E-446</td><td class="column-2">Error due to operation failure of Fan1</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">E-447</td><td class="column-2">Motor wire of Fan1 is not connected</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">E-448</td><td class="column-2">Lock error on Fan1</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">E-452</td><td class="column-2">Error due to ZPC detection circuit problem or power failure</td>
+</tr>
+<tr class="row-38 even">
+	<td class="column-1">E-453</td><td class="column-2">Error due to overheated motor of outdoor unit's Fan1</td>
+</tr>
+<tr class="row-39 odd">
+	<td class="column-1">E-455</td><td class="column-2">Error due to overheated IPM of Fan1</td>
+</tr>
+<tr class="row-40 even">
+	<td class="column-1">E-461</td><td class="column-2">Error due to operation failure of inverter compressor 1</td>
+</tr>
+</tbody>
+</table>
+</p>
+            
+<p>
+<table id="tablepress-53-no-2" class="tablepress tablepress-id-53">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Codes</th><th class="column-2">Cause</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E-462</td><td class="column-2">Compressor stop due to full current control or error due to low current on CT2</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E-464</td><td class="column-2">Error due to over-current of inverter compressor 1</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E-465</td><td class="column-2">V-limit error of inverter compressor 1</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E-466</td><td class="column-2">Error due to over voltage /low voltage of inveter PBA1</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E-467</td><td class="column-2">Error due to unconnected wire of compressor 1</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E-468</td><td class="column-2">Output current sensor error of inverter PBA1</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E-469</td><td class="column-2">DC voltage sensor error of inver PBA1</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E-474</td><td class="column-2">Heat sink temperature sensor error of inverter PBA1</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E-478</td><td class="column-2">Error due to overcurrent of Fan1</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E-485</td><td class="column-2">Error due to input current of inverter 1</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E-486</td><td class="column-2">Error due to over voltage/low voltage of Fan</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E-487</td><td class="column-2">Hall IC error of Fan1</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E-489</td><td class="column-2">V-limit error on Fan1 of compressor</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E-493</td><td class="column-2">Output current sensor error of Fan1</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E-496</td><td class="column-2">DC voltage sensor error of Fan1</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E-499</td><td class="column-2">Heat sink temperature sensor error of Fan1</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E-500</td><td class="column-2">Error due to overheat caused by contact failure on IPM of Inverter PBA1</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E-503</td><td class="column-2">Error due to alert the user to check if the service valve is closed</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">E-504</td><td class="column-2">Error due to self diagnosis of compressor operation</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">E-505</td><td class="column-2">Error due to self diagnosis of high pressure sensor</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">E-506</td><td class="column-2">Error due to self diagnosis of low pressure sensor</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">E-560</td><td class="column-2">Outdoor unit's option switch setting error (when iinappropriate option switch is on)</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">E-563</td><td class="column-2">Error due to module installation of indoor unit with old version (Micom version needs to be checked)</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">E-573</td><td class="column-2">Error due to using single type outdoor unit in a module installation</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">E-702</td><td class="column-2">Error due to closed EEV of indoor unit (1st detection)</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">E-703</td><td class="column-2">Error due to opened EEV of indoor unit (1st detection)</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">E-901</td><td class="column-2">EHS water in sensor (Short or Open)</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">E-902</td><td class="column-2">EHS water out sensor (Short or Open)</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">E-904</td><td class="column-2">EHS water tank sensor (Short or Open)</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">E-907</td><td class="column-2">EHS freezing protection error</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">E-908</td><td class="column-2">EHS freezing protection error (EHS reoperatable)</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">E-909</td><td class="column-2">EHS freezing protection error (EHS not reoperatable)</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">E-910</td><td class="column-2">EHS water out sensor detached</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">E-911</td><td class="column-2">EHS flow switch error</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">E-913</td><td class="column-2">EHS flow switch error (6th detection)(EHS not reoperatable)</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">E-914</td><td class="column-2">EHS thermostat detached</td>
+</tr>
+<tr class="row-38 even">
+	<td class="column-1">E-915</td><td class="column-2">EHS radiating fan unoperate error</td>
+</tr>
+<tr class="row-39 odd">
+	<td class="column-1">UP</td><td class="column-2">Auto Trial Operation incompleted (UnPrepared)</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Wired remote controller:</strong></p>
+            
+<p>
+<table id="tablepress-54-no-2" class="tablepress tablepress-id-54">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Code</th><th class="column-2">Contents-Measure</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">101</td><td class="column-2">Indoor unit communication error. Check the communication cable of indoor unit. Check the DC output voltage at the communication terminal.</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">108</td><td class="column-2">Duplicated addresssetting error. Check addresssetting of Indoor units</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">109</td><td class="column-2">No response error address from indoor unit. Check indoor unit's quantity setting in outdoor unit. Check electriacl connection and setting.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">121</td><td class="column-2">Indoor temperature sensor (open/short error). Check indoor unit room temperature sensor. Check indoor unit PCB connector CN41. (White)</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">122</td><td class="column-2">Indoor unit Eva In sensor (Open/Short). Check indoor unit pipe sensor. Check indoor PCB connector CN41.(White)</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">153</td><td class="column-2">Indoor floating switch secondary detection. Check indoor unit floatsensor. Check indoor PCB connector CN5. (black)</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">202</td><td class="column-2">Indoor/outdoor communication error (1 min). Check the communication connection between indoor and outdoor units. Check the power line and communication cable connection status</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">203</td><td class="column-2">Communication error between indoor/outdoor INVlMAIN MICOM (1 min). Check MAIN MICOM . Check INVERTER MICOM.</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">221</td><td class="column-2">Outdoor temperature sensor error. Check sensor connection status. Check sensor location. Check sensor resistance</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">231</td><td class="column-2">COND temperature sensor error. Check sensor connection status. Check sensor location. Check sensor resistance.</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">251</td><td class="column-2">[Inverter] Emission temperature sensor error. Check sensor connection status. Check sensor location. Check sensor resistance.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">403</td><td class="column-2">Detection of Indoor Freezing (when Comp. Stops). Check whether the indoor unit air intake is blocked. Check the operation of the indoor fan.</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">404</td><td class="column-2">Protection of Outdoor Overload (when Comp. Stops). Check sensor connection status. Check sensor location. Check sensor resistance</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">416</td><td class="column-2">Emission temperature excessively high. No error. (DISCHARGE temperature control)</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">422</td><td class="column-2">High pressure blockage error (Refrigerant completely Leakage error). Check whether the outdoor unitservice valve is open. Check the connection of the pipes. Check the operation of the EEV. Check for refrigerant leakage. (Completely leakage).</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">440</td><td class="column-2">Heating operation blocked. Check the operation setting state. Check temperature sensor.</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">441</td><td class="column-2">Cooling operation blocked. Check the operation setting state . Check temperature senso.</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">458</td><td class="column-2">Outdoor fan 1 error. Check input power connection status. Check the connection status between the motor and outdoor unit PCB. Check indoor/outdoor fuse.</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">461</td><td class="column-2">[Inverter] Compressorstartup error. Check the compressor connection status. Check the resistance between difference phases of the compressor</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">462</td><td class="column-2">[Inverter] Total current error/ PFC over current error. Check the input power Check the coolant charging status Check the normal operation of outdoor fan</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">463</td><td class="column-2">OLP Overheat and Comp. Stop. Reconfirm the opening of the service valve. Check for leaksfrom the connection part of the pipe and product or from the pipe joint. Change the outdoor unit location and direction. Refill the coolant after checking the leaking part. Reinstall the outdoor unitset.</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">464</td><td class="column-2">[Inverter] IPM over current error. Check coolant charging Check the compressor connection status and normal operation Check the obstacles around the indoor and outdoor units Check whether the outdoor unitservice valve is open Check whether the indoor/outdoor installation pipe/ wiring are correct</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">465</td><td class="column-2">Compressor V limit error. Check the compressor connection status Check the resistance between difference phases of the compressor</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">466</td><td class="column-2">DC LINK over/low voltage error. Check input power Check AC power connection</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">467</td><td class="column-2">[Inverter] Compressor rotation error. Check the compressor connection status Check the resistance between difference phases of the compressor</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">468</td><td class="column-2">[Inverter] Currentsensor error. Check EEPROM DATA Check the normal operation of PCB</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">469</td><td class="column-2">[Inverter] DC LINK voltage sensor error. Check the input power connection Check the status of RY21 and R200 in the INVERTER PCB</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">470</td><td class="column-2">EEPROM Read/Write error</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">471</td><td class="column-2">[Inverter] OTP error. Check EEPROM DATA Check the normal operation of PCB</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">472</td><td class="column-2">AC ZERO CROSSING SIGNAL OUT error. Check the input powerstatus</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">473</td><td class="column-2">Compressor LOCK error. Check the compressor connection status Check the resistance between difference phases of the compressor</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">475</td><td class="column-2">Outdoor fan 2 error. Check the input power connection status Check the connection status of the motor and the outdoor unit PCB Check the indoor/outdoor unit fuse</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">500</td><td class="column-2">IPM Overheat Error for Outdoor Unit Inverter Comp. Change the location of the outdoor unit if the temperature is abnormally high when the heatproof plate is checked. Reconnect the screws. Replace the outdoor unit fan. Replace the PBA of the outdoor unit</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">554</td><td class="column-2">Gas leak error. Check the coolant charging status Check the indoor EVA sensor Check if the outdoor unitservice value is open Check that the indoor/outdoor installation pipe/wiring are correct</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">556</td><td class="column-2">Capacities not matched. Check the option code of the indoor unit</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">601</td><td class="column-2">Communication error between the indoor unit and wired remote controller. Check the connection wire between the indoor unit and the wired remote controller</td>
+</tr>
+<tr class="row-38 even">
+	<td class="column-1">602</td><td class="column-2">Communication error between the Master and Slave wired remote controllers. Check the option switch for defining the Master and Slave (only one Master and one Slave can exist)</td>
+</tr>
+<tr class="row-39 odd">
+	<td class="column-1">606</td><td class="column-2">COM1/COM2 crossinstallation error. Check that wired remote controller is connected to the COM2 terminal of the indoor unit</td>
+</tr>
+<tr class="row-40 even">
+	<td class="column-1">EA</td><td class="column-2">Wired remote controller COM2 option setting error. Check that Com1, Com2 setting DIP switch isset to Com2</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p><strong>Outdoor Unit</strong></p>
+            
+<p>
+<table id="tablepress-55-no-2" class="tablepress tablepress-id-55">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Error Code</th><th class="column-2">Explanation</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">E190</td><td class="column-2">Pipe inspection error</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">E199</td><td class="column-2">Error of non-performed installation-test-operation</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">E201</td><td class="column-2">The number of indoor unit mismatched</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">E202</td><td class="column-2">Communication errer between the outdoor and indoor unit</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">E203</td><td class="column-2">Outdoor communication error between main micom and inverter micom</td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">E206</td><td class="column-2">Outdoor communication error beween main micom and hub micom</td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">E221 </td><td class="column-2">Outside temperature sensor error (Short/Open)</td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">E237</td><td class="column-2">Condenser temperature sensor error (Short/Open)</td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">E251</td><td class="column-2">Compressor Discharge temperature sensor error (Short/Open)</td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">E320</td><td class="column-2">Compressor OLP sensor error (Short/Open)</td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">E330</td><td class="column-2">EvaIn1 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">E331</td><td class="column-2">EvaIn2 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">E332</td><td class="column-2">EvaIn3 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">E333</td><td class="column-2">EvaIn4 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">E334</td><td class="column-2">EvaIn5 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">E335</td><td class="column-2">EvaOut1 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">E336</td><td class="column-2">EvaOut2 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-19 odd">
+	<td class="column-1">E337</td><td class="column-2">EvaOut3 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-20 even">
+	<td class="column-1">E338</td><td class="column-2">EvaOut4 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-21 odd">
+	<td class="column-1">E339</td><td class="column-2">EvaOut5 Sensor error (Short/Open)</td>
+</tr>
+<tr class="row-22 even">
+	<td class="column-1">E401 </td><td class="column-2">Outdoor unit freezing - Safety control (Compressor stop)</td>
+</tr>
+<tr class="row-23 odd">
+	<td class="column-1">E404</td><td class="column-2">Outdoor unit overload - Safety control (Compressor stop)</td>
+</tr>
+<tr class="row-24 even">
+	<td class="column-1">E440</td><td class="column-2">High temperature(over 30°C) or low temperature(under -10C) of outdoor as heating mode</td>
+</tr>
+<tr class="row-25 odd">
+	<td class="column-1">E441 </td><td class="column-2">Low temperature(under -10°C) of outdoor as cooling mode</td>
+</tr>
+<tr class="row-26 even">
+	<td class="column-1">E416</td><td class="column-2">Outdoor unit high discharge temperature - Safety control (Compressor stop)</td>
+</tr>
+<tr class="row-27 odd">
+	<td class="column-1">E458</td><td class="column-2">Outdoor Fan Error</td>
+</tr>
+<tr class="row-28 even">
+	<td class="column-1">E461</td><td class="column-2">Inverter compressor starting failure (5 times)</td>
+</tr>
+<tr class="row-29 odd">
+	<td class="column-1">E462</td><td class="column-2">Compressor trip by input current control mode (PFC over current)</td>
+</tr>
+<tr class="row-30 even">
+	<td class="column-1">E463</td><td class="column-2">Compressor trip by OLP temperature control mode</td>
+</tr>
+<tr class="row-31 odd">
+	<td class="column-1">E464</td><td class="column-2">DC Peak system error (Over current)</td>
+</tr>
+<tr class="row-32 even">
+	<td class="column-1">E465</td><td class="column-2">Compressor Vlimit Error</td>
+</tr>
+<tr class="row-33 odd">
+	<td class="column-1">E466</td><td class="column-2">Inverter DC link Voltage error (under 150V, over 410V)</td>
+</tr>
+<tr class="row-34 even">
+	<td class="column-1">E483</td><td class="column-2">H/W Detect DC Link over voltage Error</td>
+</tr>
+<tr class="row-35 odd">
+	<td class="column-1">E467</td><td class="column-2">Abnormal compressor running (Compressor Rotation Error)</td>
+</tr>
+<tr class="row-36 even">
+	<td class="column-1">E468</td><td class="column-2">Current sensor error (Short/Open)</td>
+</tr>
+<tr class="row-37 odd">
+	<td class="column-1">E469</td><td class="column-2">DC-Link valtage sensor error (Short/Open)</td>
+</tr>
+<tr class="row-38 even">
+	<td class="column-1">E488</td><td class="column-2">Error of the input current sensor</td>
+</tr>
+<tr class="row-39 odd">
+	<td class="column-1">E470</td><td class="column-2">Outdoor unit EEPROM Error</td>
+</tr>
+<tr class="row-40 even">
+	<td class="column-1">E471</td><td class="column-2">Inverter micom option read/write error</td>
+</tr>
+<tr class="row-41 odd">
+	<td class="column-1">E474</td><td class="column-2">Inverter IPM Heat Sink sensor error (Short/Open)</td>
+</tr>
+<tr class="row-42 even">
+	<td class="column-1">E485</td><td class="column-2">Inverter input current sensor error (Short/Open)</td>
+</tr>
+<tr class="row-43 odd">
+	<td class="column-1">E484</td><td class="column-2">PFC Overload error (Over current)</td>
+</tr>
+<tr class="row-44 even">
+	<td class="column-1">E500</td><td class="column-2">Inverter IPM over heat error</td>
+</tr>
+<tr class="row-45 odd">
+	<td class="column-1">E554</td><td class="column-2">The refrigerant leaks completely from the outdoor unit</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+         </div>
+      
+          
+      
+   </body>
+</html>
